@@ -16,4 +16,6 @@ vnotest_tempest_plugin.egg-info/top_level.txt
 vnotest_tempest_plugin/services/__init__.py
 vnotest_tempest_plugin/tests/__init__.py
 vnotest_tempest_plugin/tests/api/__init__.py
+vnotest_tempest_plugin/tests/api/base.py
+vnotest_tempest_plugin/tests/api/test_vnoacceptance.py
 vnotest_tempest_plugin/tests/scenario/__init__.py

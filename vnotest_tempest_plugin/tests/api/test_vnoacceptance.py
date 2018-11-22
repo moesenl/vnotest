@@ -1,6 +1,5 @@
 from vnoacceptance_tempest_plugin.tests.api import base
-from tempest import test
-
+from tempest.lib import decorators
 
 class TestVNOAcceptance(base.BaseVNOAcceptanceTest):
 
@@ -8,7 +7,7 @@ class TestVNOAcceptance(base.BaseVNOAcceptanceTest):
     def resource_setup(cls):
         super(TestVNOAcceptance, cls).resource_setup()
 
-    @test.attr(type="smoke")
+    @decorators.attr(type="smoke")
     def test_vnoacceptance(self):
         self.assertEqual('Hello VNO!', 'Hello VNO!')
 

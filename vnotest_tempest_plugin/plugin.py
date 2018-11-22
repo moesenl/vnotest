@@ -22,7 +22,7 @@ from tempest.test_discover import plugins
 from vnotest_tempest_plugin import config as project_config
 
 
-class vnotest(plugins.TempestPlugin):
+class VNOTest(plugins.TempestPlugin):
     def load_tests(self):
         base_path = os.path.split(os.path.dirname(
             os.path.abspath(__file__)))[0]
