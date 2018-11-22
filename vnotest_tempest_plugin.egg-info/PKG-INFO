@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: vnotest-tempest-plugin
+Version: 0.0.1.dev1
+Summary: Basic Tempest plugin with a vno test case
+Home-page: https://github.com/moesenl/vnotest
+Author: luc vermoesen
+Author-email: lucvermoesen@gmail.com
+License: UNKNOWN
+Description: # vnotest
+        
+        
+Keywords: Plugin
+Tempest
+OpenStack
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: OpenStack Development Team
+Classifier: Intended Audience :: OpenStack QA Team
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: Linux
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python

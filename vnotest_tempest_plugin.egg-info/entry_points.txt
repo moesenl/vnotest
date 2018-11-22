@@ -1,0 +1,3 @@
+[tempest.test_plugins]
+vnotest-tempest-plugin = vnotest_tempest_plugin.plugin:MyPlugin
+
