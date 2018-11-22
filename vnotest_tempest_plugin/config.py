@@ -12,4 +12,26 @@
 #    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 #    License for the specific language governing permissions and limitations
 #    under the License.
+from oslo_config import cfg
+from tempest import config
+
+service_available_group = cfg.OptGroup(
+    name="service_available",
+    title="Available OpenStack Services"
+)
+
+ServiceAvailableGroup = [
+    cfg.BoolOpt("vnotest_tempest_plugin", default=True,
+                help="Whether or not vnoacceptancetesting is expected to be available")
+]
+
+VNOAcceptance_group = cfg.OptGroup(
+    name="vnoacceptance",
+    title="vnoacceptance Test Variables"
+)
+
+VNOAcceptanceGroup = [
+    cfg.StrOpt("my_vno_var", default="some vno value",
+               help="My vno variable.")
+]
 

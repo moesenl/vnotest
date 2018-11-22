@@ -31,7 +31,23 @@ class vnotest(plugins.TempestPlugin):
         return full_test_dir, base_path
 
     def register_opts(self, conf):
-        pass
+        config.register_opt_group(
+            conf,
+            project_config.service_available_group,
+            project_config.ServiceAvailableGroup)
+        config.register_opt_group(
+            conf,
+            project_config.VNOAcceptance_group,
+            project_config.VNOAcceptanceGroup)
 
     def get_opt_lists(self):
-        pass
+        return [(
+            project_config.VNOAcceptance_group.name,
+            project_config.VNOAcceptanceGroup)]
+
+#    def register_opts(self, conf):
+#        pass
+#
+#    def get_opt_lists(self):
+#        pass
+
