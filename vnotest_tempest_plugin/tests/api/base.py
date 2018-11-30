@@ -19,3 +19,4 @@ class BaseVNOAcceptanceTest(test.BaseTestCase):
             raise cls.skipException(skip_msg)
         pass
 
+

@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: vnotest-tempest-plugin
-Version: 0.0.2.dev4
+Version: 0.0.2.dev7
 Summary: Basic Tempest plugin with a vno test case
 Home-page: https://github.com/moesenl/vnotest
 Author: luc vermoesen
